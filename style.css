@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgb(126, 67, 67);
+  flex-direction: column;
+  
+}
+
+input{
+  color:#fff;
+  padding:17px;
+  outline:none;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 25%;
+}
+
+.maincolor{
+  background-color: rgb(80, 76, 76);
+  border: 1px solid yellow;
+}
+
+.maincolor2{
+    background-color: white;
+    border: 1px solid yellow;
+    color: #000;
+  }
+
+.num{
+  width: 64px;
+  height: 67px;
+}
+
+.text{
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1{
+  width: 24px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom:12px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(255, 0, 98);
+}
+
+.main{
+  display: inline-block;
+}
+
+.blue{
+  background-color:#0cd0cd;
+}
+
+.pin{
+  background-color:#cf1596;
+}
+
+.gre{
+  background-color:#aad800;
+}
+
+.pur{
+  background-color:#8c52f0
+}
+
+.ora{
+  background-color:#fcb707;
+}
+form{
+    border: 1px solid red;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 1);
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+.maincolor3{
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+
+}
+.maincolor:hover{
+    background-color: #000;
+}
